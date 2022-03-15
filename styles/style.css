@@ -24,7 +24,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 55px;
-    width: 40%;
+    width: 55%;
     height: 350px;;
     background-color: hsl(217, 19%, 24%);
     border-radius: 17px;
@@ -38,7 +38,7 @@
 #advice-text {
     overflow-y: auto;
     color: hsl(193, 38%, 86%);
-    font-size: 1.8rem;
+    font-size: 1.7em;
     font-weight: 800;
 }
 
