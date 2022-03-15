@@ -17,6 +17,7 @@
 }
 
 #advice {
+    overflow: hidden;
     text-align: center;
     display: flex;
     flex-direction: column;
