@@ -1,15 +1,3 @@
-@media screen and (max-width: 640px) {
-    #advice {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    #advice {
-        width: 340px;
-    }
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -37,10 +25,47 @@
     align-items: center;
     padding: 55px;
     width: 45%;
-    height: 350px;;
+    height: 350px;
     background-color: hsl(217, 19%, 24%);
     border-radius: 17px;
 }
+
+@media screen and (max-width: 895px) {
+    #advice {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #advice {
+        width: 60%;
+    }
+
+    #advice-text {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #advice {
+        width: 80%;
+    }
+
+    #advice-text {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    #advice {
+        width: 100%;
+    }
+
+    #advice-text {
+        font-size: 1.2rrem;
+    }
+}
+
 
 #advice h4 {
     margin-bottom: 40px;
