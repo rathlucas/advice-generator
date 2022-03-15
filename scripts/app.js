@@ -1,4 +1,4 @@
-const adviceTitle = document.getElementById("advice-title")
+const adviceTitle = document.getElementById("advice-title");
 const adviceText = document.getElementById("advice-text");
 const url = "https://api.adviceslip.com/advice";
 
@@ -13,7 +13,7 @@ async function showAdvice() {
     let slip = await getAdvice();
 
     adviceTitle.textContent = `ADVICE #${slip.id}`;
-    adviceText.textContent = `${slip.advice}`;
+    adviceText.textContent = `"${slip.advice}"`;
 
 }
 

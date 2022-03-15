@@ -17,7 +17,7 @@
 }
 
 #advice {
-    overflow: hidden;
+    position: relative;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -36,9 +36,35 @@
 }
 
 #advice-text {
+    overflow-y: auto;
     color: hsl(193, 38%, 86%);
-    font-size: 28px;
+    font-size: 1.8rem;
     font-weight: 800;
+}
+
+.divider {
+    position: absolute;
+    width: 80%;
+    bottom: 70px;
+}
+
+#dice-btn {
+    position: absolute;
+    bottom: -25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: hidden;
+    background-color: hsl(150, 100%, 66%);
+    background-image: url(../images/icon-dice.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+
+#dice-btn:hover {
+    box-shadow: 0 0 25px hsl(150, 100%, 66%);
 }
 
 
